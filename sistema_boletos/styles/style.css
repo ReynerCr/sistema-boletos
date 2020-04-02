@@ -1,0 +1,169 @@
+/* style.css */
+
+body
+{
+    background-color: #f5f4f4;
+}
+
+a
+{
+    color: #001652;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.title
+{
+    color: black;
+    text-align: center;
+    font-weight: 250;
+    display: block;
+}
+
+header > span {
+    text-align: center;
+}
+
+.bloque-contenido
+{
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+    border: 1px #e0e0e0 solid;
+    border-radius: 3%;
+    padding: 20px 70px;
+}
+
+form.vertical > input, form.vertical > textarea, form.vertical > select
+{
+    display: block;
+}
+
+.bloque-contenido textarea
+{
+    width: 70%;
+}
+
+form.vertical input, form.vertical textarea, form.vertical select
+{
+    padding: 10px;
+    margin: 0px 0px 12px;
+    border: 1px solid #d3d3d3;
+}
+
+form.vertical button
+{
+    padding: 10px;
+    margin: 0px 0px 12px;
+    border: 1px solid #8f8f8f;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+form.vertical button:hover
+{
+    padding: 10px;
+    margin: 0px 0px 12px;
+    background-color: #c5c5c5;
+}
+
+form.vertical button:disabled
+{
+  border: 1px solid #a8a8a8;
+  background-color: #dbdbdb;
+  color: #666666;
+  cursor: auto;
+}
+
+.enviar
+{
+    background-color: #53c662fd;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enviar:hover
+{
+    color: white;
+    background-color: #4eb85cfd;
+}
+
+.centrado
+{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.boton
+{
+    cursor: pointer;
+}
+
+a.boton:link
+{
+    border: 1px #888888 solid;
+    color: black;
+    border-radius: 3%;
+    background-color: white;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    font-size: large;
+}
+
+a.boton:visited
+{
+    border: 1px #888888 solid;
+    color: black;
+}
+
+a.boton:hover
+{
+    color: #666666;
+    border: 1px #bbbbbb solid;
+}
+
+a.boton:active
+{
+    border: 1px #bbbbbb solid;
+    color: #3d3d3d;
+}
+
+.mensaje
+{
+    font-size: 16px;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 3%;
+    padding: 20px 70px;
+}
+
+.error
+{
+    background-color: #f8d7da;
+    border: 1px #f5c6cb solid;
+    color: #721c24;
+}
+
+.correcto
+{
+    background-color: #d4edda;
+    border: 1px #f5c6cb solid;
+    color: #155724;
+}
+
+.informacion
+{
+    background-color: #fff3cd;
+    border: 1px #ffeeba solid;
+    color: #533f03;
+}
+
+table th, table td
+{
+    padding: 2px 5px;
+}
