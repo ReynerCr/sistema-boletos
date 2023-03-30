@@ -1,6 +1,5 @@
 DATOS DE ESTUDIANTE: (solitario)
 Nombres: Reyner David Contreras Rojas.
-C.I: V.-26934400
 Programación II sección 02.
 
 La base de datos es el archivo "sistema_boletos.sql" y la usé con colación utf8mb4_spanish_ci
